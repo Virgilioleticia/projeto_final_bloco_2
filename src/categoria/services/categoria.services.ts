@@ -27,7 +27,6 @@ export class CategoriaService{
 
         return categoria;
 
-
     }
 
     async findByTipo(tipo: string): Promise<Categoria[]>{
